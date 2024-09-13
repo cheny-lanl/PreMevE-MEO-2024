@@ -8,14 +8,13 @@
  >>     @ rights in the Software and the copyright@    
  >>     @         subsisting therein              @    
  >>                                                    
- >>                  September, 2024                   
- >>
+ >>                  September, 2024                           
  >> This software uses the following packages:         
- >>    @matplotlib, numpy, pysci, torch,                 
- >>    @timm, python-utils, pythonnet, cuda,             
- >>    @pandas, scikit-learn, & tensorflow              
+ >>    **matplotlib, numpy, pysci, torch,                 
+ >>    **timm, python-utils, pythonnet, cuda,             
+ >>    **pandas, scikit-learn, & tensorflow              
  >> See package_licenses.txt for copyrights/notices    
- >>!****************  PREMEVE-MEO*2024  ******************!
+ >> ****************  PREMEVE-MEO*2024  ******************
 
 
 # PreMevE-MEO  - a PREdictive model for MEgaelectron-Volt Electrons driven by particle intputs from MEO satellites(Software). This is the codes used for Space Weather manuscript 2024SW003975 "PreMevE-MEO: Predicting Ultra-relativistic Electrons Using Observations from GPS Satellites"
