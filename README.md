@@ -19,7 +19,7 @@
  !****************  PREMEVE-MEO*2024  ******************!
 
 
-# PreMevE-MEO  - a PREdictive model for MEgaelectron-Volt Electrons driven by particle intputs from MEO satellites(Software). This is the codes used for the paper xxxxx
+# PreMevE-MEO  - a PREdictive model for MEgaelectron-Volt Electrons driven by particle intputs from MEO satellites(Software). This is the codes used for Space Weather manuscript 2024SW003975 "PreMevE-MEO: Predicting Ultra-relativistic Electrons Using Observations from GPS Satellites".
 
 # O4773
 
