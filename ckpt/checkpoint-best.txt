@@ -1,1 +1,1 @@
-download the trainned model file "checkpoint-best.pth", which is more than 250Mb, from https://osf.io/rcgpw/files/osfstorage/66e4bbca9223441ec54bf97a and place the file in this location chpt/
+download the pre-trainned model file "checkpoint-best.pth", which has a size of >250 Mb, from https://osf.io/rcgpw/files/osfstorage/66e4bbca9223441ec54bf97a and place the file in this location chpt/
