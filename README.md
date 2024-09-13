@@ -7,13 +7,14 @@
  >>     @ U.S. Government retain ownership of all @    
  >>     @ rights in the Software and the copyright@    
  >>     @         subsisting therein              @    
- >>                                                    
- >>                  September, 2024                           
- >> This software uses the following packages:         
- >>    **matplotlib, numpy, pysci, torch,                 
- >>    **timm, python-utils, pythonnet, cuda,             
- >>    **pandas, scikit-learn, & tensorflow              
- >> See package_licenses.txt for copyrights/notices    
+ >>     @                                         @                                             
+ >>     @            September, 2024              @
+ >>                                                        
+ >>       This software uses the following packages:         
+ >>          **matplotlib, numpy, pysci, torch,                 
+ >>          **timm, python-utils, pythonnet, cuda,             
+ >>          **pandas, scikit-learn, & tensorflow              
+ >>      See package_licenses.txt for copyrights/notices    
  >> ****************  PREMEVE-MEO*2024  ******************
 
 
