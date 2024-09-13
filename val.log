@@ -1,0 +1,207 @@
+==========================================================
+Start date : Tue Sep  3 22:40:04 MDT 2024
+Job name : val
+Job ID : 15997293
+==========================================================
+Red Hat Enterprise Linux release 8.10 (Ootpa)
+Master Node: cn664
+Slave Node(s): 
+!*****herehere****!
+Not using distributed mode
+[22:40:23.931809] job dir: /vast/home/cheny/PreMevE_MEO/Space_code/src
+[22:40:23.931886] Namespace(model='FluexNet_meta',
+depth=2,
+patch_size=[6,
+9],
+num_res_blocks=1,
+act_layer='gelu',
+weight_decay=0.05,
+lr=None,
+blr=0.001,
+min_lr=0.0,
+warmup_epochs=300,
+output_dir='/vast/home/cheny/PreMevE_MEO/Space_code/ckpt',
+log_dir=None,
+device='cuda',
+seed=0,
+anno_path='/vast/home/cheny/PreMevE_MEO/Space_code/dataset/2023_05_25',
+suffix=None,
+distributed=False,
+start_epoch=0,
+num_workers=10,
+pin_mem=True,
+drop_fluxe=[1,
+2,
+3,
+4],
+choose_sat=['ns61',
+'ns53',
+'ns57',
+'ns56',
+'ns58',
+'ns55',
+'ns59',
+'ns63',
+'ns62',
+'ns60',
+'ns66',
+'ns65'],
+batch_size=32,
+epochs=400,
+accum_iter=2,
+drop_path=0.1,
+input_size=72,
+embed_dim=256,
+latent_dim=256,
+l1w=1.0,
+l2w=1.0,
+l3w=0.0,
+l4w=0.01,
+predict=0,
+ckpt_name='best',
+resume_auto=True,
+resume='',
+resume_x='',
+only_test=True,
+save_window=False,
+log=True,
+geo_log=False,
+log10=True,
+interp=False,
+token=-5,
+norm='std',
+geo=True,
+old_version=False,
+omni=False,
+input_geo=True,
+resample=False,
+old_geo_input=False,
+rescale_loss=False,
+step_two=False,
+res=True,
+target_shell=0,
+drop_sat=0,
+noise_injection=0,
+low_shell=False,
+remove_shell=-1,
+time_avg=-1,
+meta_mode=[],
+meta_pose=True,
+meta_feature=True,
+new_split=False,
+smooth_label=False,
+world_size=1,
+local_rank=-1,
+dist_on_itp=False,
+dist_url='tcp://cn664:6000')
+[22:40:24.024284] Training set Random:  False
+[22:40:24.024314] Loading data
+[22:40:31.689732] Loading training data
+[22:40:31.689823] 72 1 0 32878
+[22:40:32.268857] Loading validation data
+[22:40:32.268914] 72 1 32878 42272
+[22:40:32.394807] Loading testing data
+[22:40:32.394859] 72 1 42272 46968
+[22:40:32.478450] /vast/home/cheny/PreMevE_MEO/Space_code/dataset/2023_05_25 32807 9323 4625
+[22:40:32.480693] 256 2 72 29 256 1 72 27 1 12 2 3.973615066276994 1.0930374014682358 {'min': 1.3575537197430816, 'max': 6.67052415778208, 'mean': 3.973615066276994, 'std': 1.0930374014682358}
+[22:40:32.480752] Start training
+[22:40:32.612743] 256 16
+[22:40:32.895729] base lr: 4.00e-03
+[22:40:32.895760] actual lr: 1.00e-03
+[22:40:32.895772] accumulate grad iterations: 2
+[22:40:32.895778] effective batch size: 64
+[22:40:32.899071] AdamW (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.95)
+    capturable: False
+    differentiable: False
+    eps: 1e-08
+    foreach: None
+    fused: None
+    lr: 0.001
+    maximize: False
+    weight_decay: 0.0
+
+Parameter Group 1
+    amsgrad: False
+    betas: (0.9, 0.95)
+    capturable: False
+    differentiable: False
+    eps: 1e-08
+    foreach: None
+    fused: None
+    lr: 0.001
+    maximize: False
+    weight_decay: 0.05
+)
+[22:40:33.977578] Resume checkpoint /vast/home/cheny/PreMevE_MEO/Space_code/ckpt/checkpoint-best.pth
+[22:40:34.055314] With optim & sched!
+[22:40:36.721034] Eval  [  0/291]  eta: 0:12:55  loss: 0.040508 (0.040508)  time: 2.654545  data: 0.536716  max mem: 2577
+[22:41:03.368394] Eval  [100/291]  eta: 0:00:55  loss: 0.046674 (0.036679)  time: 0.266045  data: 0.000103  max mem: 2584
+[22:41:29.977256] Eval  [200/291]  eta: 0:00:25  loss: 0.051824 (0.049819)  time: 0.266001  data: 0.000087  max mem: 2584
+[22:41:54.113592] Eval  [291/291]  eta: 0:00:00  loss: 0.048723 (0.064802)  time: 0.262459  data: 0.000053  max mem: 2584
+[22:41:54.113696] Eval Total time: 0:01:20 (0.274159 s / it)
+[22:41:54.113725] Averaged stats: loss: 0.048723 (0.064802)
+[22:41:54.211534] torch.Size([9323, 1, 72, 27]) torch.Size([9323, 1, 72, 27])
+[22:41:54.715519] * Loss in Original Domain:
+[22:41:54.737680] MAE: 69587.1328125
+[22:41:54.744381] MSE: 51204067328.0
+[22:41:54.748629] R2 Score: 0.5144505500793457
+[22:41:54.748647] 
+[22:41:54.770523] * Loss in Log Domain:
+[22:41:54.773294] MAE: 0.22720478475093842
+[22:41:54.775306] MSE: 0.12510694563388824
+[22:41:54.777581] R2 Score: 0.8729604482650757
+[22:41:54.777596] 
+[22:41:55.286932] Eval  [  0/144]  eta: 0:01:09  loss: 0.037031 (0.037031)  time: 0.479923  data: 0.211606  max mem: 2584
+[22:42:21.912322] Eval  [100/144]  eta: 0:00:12  loss: 0.111702 (0.127688)  time: 0.266190  data: 0.000105  max mem: 2584
+[22:42:33.536814] Eval  [144/144]  eta: 0:00:00  loss: 0.057864 (0.109048)  time: 0.261923  data: 0.000054  max mem: 2584
+[22:42:33.536922] Eval Total time: 0:00:38 (0.267106 s / it)
+[22:42:33.536937] Averaged stats: loss: 0.057864 (0.109048)
+[22:42:33.579979] torch.Size([4625, 1, 72, 27]) torch.Size([4625, 1, 72, 27])
+[22:42:33.829054] * Loss in Original Domain:
+[22:42:33.830761] MAE: 16628.740234375
+[22:42:33.831802] MSE: 1959390336.0
+[22:42:33.832963] R2 Score: 0.5942707061767578
+[22:42:33.832989] 
+[22:42:33.833555] * Loss in Log Domain:
+[22:42:33.834564] MAE: 0.3621077239513397
+[22:42:33.835553] MSE: 0.22801192104816437
+[22:42:33.836706] R2 Score: 0.766421914100647
+[22:42:33.836732] 
+[22:42:34.368339] Eval  [   0/1025]  eta: 0:08:47  loss: 0.019569 (0.019569)  time: 0.514518  data: 0.246372  max mem: 2584
+[22:43:00.971512] Eval  [ 100/1025]  eta: 0:04:08  loss: 0.021051 (0.022654)  time: 0.265967  data: 0.000092  max mem: 2584
+[22:43:27.562843] Eval  [ 200/1025]  eta: 0:03:40  loss: 0.014269 (0.020454)  time: 0.265966  data: 0.000091  max mem: 2584
+[22:43:54.161778] Eval  [ 300/1025]  eta: 0:03:13  loss: 0.019165 (0.019487)  time: 0.266033  data: 0.000097  max mem: 2584
+[22:44:20.764492] Eval  [ 400/1025]  eta: 0:02:46  loss: 0.012548 (0.026227)  time: 0.266004  data: 0.000097  max mem: 2584
+[22:44:47.361197] Eval  [ 500/1025]  eta: 0:02:20  loss: 0.014736 (0.025839)  time: 0.265957  data: 0.000090  max mem: 2584
+[22:45:13.959122] Eval  [ 600/1025]  eta: 0:01:53  loss: 0.022724 (0.026556)  time: 0.265957  data: 0.000095  max mem: 2584
+[22:45:40.554297] Eval  [ 700/1025]  eta: 0:01:26  loss: 0.029989 (0.025864)  time: 0.265940  data: 0.000096  max mem: 2584
+[22:46:07.154641] Eval  [ 800/1025]  eta: 0:01:00  loss: 0.016959 (0.025827)  time: 0.265992  data: 0.000105  max mem: 2584
+[22:46:33.747867] Eval  [ 900/1025]  eta: 0:00:33  loss: 0.026616 (0.025993)  time: 0.265848  data: 0.000093  max mem: 2584
+[22:47:00.335557] Eval  [1000/1025]  eta: 0:00:06  loss: 0.038584 (0.026800)  time: 0.265844  data: 0.000093  max mem: 2584
+[22:47:06.838267] Eval  [1025/1025]  eta: 0:00:00  loss: 0.032961 (0.026914)  time: 0.258647  data: 0.000056  max mem: 2584
+[22:47:06.838388] Eval Total time: 0:04:32 (0.266067 s / it)
+[22:47:06.838407] Averaged stats: loss: 0.032961 (0.026914)
+[22:47:07.191016] torch.Size([32807, 1, 72, 27]) torch.Size([32807, 1, 72, 27])
+[22:47:08.972173] * Loss in Original Domain:
+[22:47:08.981449] MAE: 21559.033203125
+[22:47:08.988283] MSE: 9697004544.0
+[22:47:08.995799] R2 Score: 0.8126671314239502
+[22:47:08.995824] 
+[22:47:08.999778] * Loss in Log Domain:
+[22:47:09.007570] MAE: 0.12063156813383102
+[22:47:09.014382] MSE: 0.03914296627044678
+[22:47:09.021691] R2 Score: 0.9675780534744263
+[22:47:09.021714] 
+[22:47:09.150627] (32878, 27)
+[22:47:09.158630] (9394, 27)
+[22:47:09.162450] (4696, 27)
+[22:47:09.163640] (46968, 27) (46968, 29)
+[22:47:09.166536] (46968, 29)
+[22:47:09.568005] (32878, 27)
+[22:47:09.575944] (9394, 27)
+[22:47:09.579824] (4696, 27)
+[22:47:09.580878] (46968, 27) (46968, 29)
+[22:47:17.295564]  Quadratic Linear (46968, 25)

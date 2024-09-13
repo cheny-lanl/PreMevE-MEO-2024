@@ -1,0 +1,60 @@
+/vast/home/cheny/PreMevE_MEO/Space_code/src/util/dataset_generation.py:389: FutureWarning: The 'delim_whitespace' keyword in pd.read_csv is deprecated and will be removed in a future version. Use ``sep='\s+'`` instead
+  df = pd.read_csv(path, delim_whitespace=True, skiprows=11)
+/vast/home/cheny/PreMevE_MEO/Space_code/src/util/dataset_generation.py:480: FutureWarning: The 'delim_whitespace' keyword in pd.read_csv is deprecated and will be removed in a future version. Use ``sep='\s+'`` instead
+  df = pd.read_csv(path, delim_whitespace=True, skiprows=11)
+/vast/home/cheny/PreMevE_MEO/Space_code/src/util/dataset_generation.py:389: FutureWarning: The 'delim_whitespace' keyword in pd.read_csv is deprecated and will be removed in a future version. Use ``sep='\s+'`` instead
+  df = pd.read_csv(path, delim_whitespace=True, skiprows=11)
+/vast/home/cheny/PreMevE_MEO/Space_code/src/util/dataset_generation.py:480: FutureWarning: The 'delim_whitespace' keyword in pd.read_csv is deprecated and will be removed in a future version. Use ``sep='\s+'`` instead
+  df = pd.read_csv(path, delim_whitespace=True, skiprows=11)
+/vast/home/cheny/PreMevE_MEO/Space_code/src/util/dataset_generation.py:389: FutureWarning: The 'delim_whitespace' keyword in pd.read_csv is deprecated and will be removed in a future version. Use ``sep='\s+'`` instead
+  df = pd.read_csv(path, delim_whitespace=True, skiprows=11)
+/vast/home/cheny/PreMevE_MEO/Space_code/src/util/dataset_generation.py:480: FutureWarning: The 'delim_whitespace' keyword in pd.read_csv is deprecated and will be removed in a future version. Use ``sep='\s+'`` instead
+  df = pd.read_csv(path, delim_whitespace=True, skiprows=11)
+/vast/home/cheny/PreMevE_MEO/Space_code/src/util/dataset_generation.py:389: FutureWarning: The 'delim_whitespace' keyword in pd.read_csv is deprecated and will be removed in a future version. Use ``sep='\s+'`` instead
+  df = pd.read_csv(path, delim_whitespace=True, skiprows=11)
+/vast/home/cheny/PreMevE_MEO/Space_code/src/util/dataset_generation.py:480: FutureWarning: The 'delim_whitespace' keyword in pd.read_csv is deprecated and will be removed in a future version. Use ``sep='\s+'`` instead
+  df = pd.read_csv(path, delim_whitespace=True, skiprows=11)
+/vast/home/cheny/PreMevE_MEO/Space_code/src/util/dataset_generation.py:389: FutureWarning: The 'delim_whitespace' keyword in pd.read_csv is deprecated and will be removed in a future version. Use ``sep='\s+'`` instead
+  df = pd.read_csv(path, delim_whitespace=True, skiprows=11)
+/vast/home/cheny/PreMevE_MEO/Space_code/src/util/dataset_generation.py:480: FutureWarning: The 'delim_whitespace' keyword in pd.read_csv is deprecated and will be removed in a future version. Use ``sep='\s+'`` instead
+  df = pd.read_csv(path, delim_whitespace=True, skiprows=11)
+/vast/home/cheny/PreMevE_MEO/Space_code/src/util/dataset_generation.py:389: FutureWarning: The 'delim_whitespace' keyword in pd.read_csv is deprecated and will be removed in a future version. Use ``sep='\s+'`` instead
+  df = pd.read_csv(path, delim_whitespace=True, skiprows=11)
+/vast/home/cheny/PreMevE_MEO/Space_code/src/util/dataset_generation.py:480: FutureWarning: The 'delim_whitespace' keyword in pd.read_csv is deprecated and will be removed in a future version. Use ``sep='\s+'`` instead
+  df = pd.read_csv(path, delim_whitespace=True, skiprows=11)
+/vast/home/cheny/PreMevE_MEO/Space_code/src/util/dataset_generation.py:389: FutureWarning: The 'delim_whitespace' keyword in pd.read_csv is deprecated and will be removed in a future version. Use ``sep='\s+'`` instead
+  df = pd.read_csv(path, delim_whitespace=True, skiprows=11)
+/vast/home/cheny/PreMevE_MEO/Space_code/src/util/dataset_generation.py:480: FutureWarning: The 'delim_whitespace' keyword in pd.read_csv is deprecated and will be removed in a future version. Use ``sep='\s+'`` instead
+  df = pd.read_csv(path, delim_whitespace=True, skiprows=11)
+/vast/home/cheny/PreMevE_MEO/Space_code/src/util/dataset_generation.py:389: FutureWarning: The 'delim_whitespace' keyword in pd.read_csv is deprecated and will be removed in a future version. Use ``sep='\s+'`` instead
+  df = pd.read_csv(path, delim_whitespace=True, skiprows=11)
+/vast/home/cheny/PreMevE_MEO/Space_code/src/util/dataset_generation.py:480: FutureWarning: The 'delim_whitespace' keyword in pd.read_csv is deprecated and will be removed in a future version. Use ``sep='\s+'`` instead
+  df = pd.read_csv(path, delim_whitespace=True, skiprows=11)
+/vast/home/cheny/PreMevE_MEO/Space_code/src/util/dataset_generation.py:389: FutureWarning: The 'delim_whitespace' keyword in pd.read_csv is deprecated and will be removed in a future version. Use ``sep='\s+'`` instead
+  df = pd.read_csv(path, delim_whitespace=True, skiprows=11)
+/vast/home/cheny/PreMevE_MEO/Space_code/src/util/dataset_generation.py:480: FutureWarning: The 'delim_whitespace' keyword in pd.read_csv is deprecated and will be removed in a future version. Use ``sep='\s+'`` instead
+  df = pd.read_csv(path, delim_whitespace=True, skiprows=11)
+/vast/home/cheny/PreMevE_MEO/Space_code/src/util/dataset_generation.py:389: FutureWarning: The 'delim_whitespace' keyword in pd.read_csv is deprecated and will be removed in a future version. Use ``sep='\s+'`` instead
+  df = pd.read_csv(path, delim_whitespace=True, skiprows=11)
+/vast/home/cheny/PreMevE_MEO/Space_code/src/util/dataset_generation.py:480: FutureWarning: The 'delim_whitespace' keyword in pd.read_csv is deprecated and will be removed in a future version. Use ``sep='\s+'`` instead
+  df = pd.read_csv(path, delim_whitespace=True, skiprows=11)
+/vast/home/cheny/PreMevE_MEO/Space_code/src/util/dataset_generation.py:389: FutureWarning: The 'delim_whitespace' keyword in pd.read_csv is deprecated and will be removed in a future version. Use ``sep='\s+'`` instead
+  df = pd.read_csv(path, delim_whitespace=True, skiprows=11)
+/vast/home/cheny/PreMevE_MEO/Space_code/src/util/dataset_generation.py:480: FutureWarning: The 'delim_whitespace' keyword in pd.read_csv is deprecated and will be removed in a future version. Use ``sep='\s+'`` instead
+  df = pd.read_csv(path, delim_whitespace=True, skiprows=11)
+/vast/home/cheny/PreMevE_MEO/Space_code/src/util/dataset_generation.py:389: FutureWarning: The 'delim_whitespace' keyword in pd.read_csv is deprecated and will be removed in a future version. Use ``sep='\s+'`` instead
+  df = pd.read_csv(path, delim_whitespace=True, skiprows=11)
+/vast/home/cheny/PreMevE_MEO/Space_code/src/util/dataset_generation.py:480: FutureWarning: The 'delim_whitespace' keyword in pd.read_csv is deprecated and will be removed in a future version. Use ``sep='\s+'`` instead
+  df = pd.read_csv(path, delim_whitespace=True, skiprows=11)
+/vast/home/cheny/PreMevE_MEO/Space_code/src/util/dataset_generation.py:533: FutureWarning: The 'delim_whitespace' keyword in pd.read_csv is deprecated and will be removed in a future version. Use ``sep='\s+'`` instead
+  df = pd.read_csv(path, delim_whitespace=True, skiprows=11)
+/vast/home/cheny/PreMevE_MEO/Space_code/src/util/dataset_generation.py:539: FutureWarning: The 'delim_whitespace' keyword in pd.read_csv is deprecated and will be removed in a future version. Use ``sep='\s+'`` instead
+  df = pd.read_csv(path, delim_whitespace=True, skiprows=11)
+/vast/home/cheny/PreMevE_MEO/Space_code/src/util/dataset_generation.py:613: FutureWarning: The 'delim_whitespace' keyword in pd.read_csv is deprecated and will be removed in a future version. Use ``sep='\s+'`` instead
+  df = pd.read_csv(path, delim_whitespace=True, skiprows=10)
+/vast/home/cheny/PreMevE_MEO/Space_code/src/util/dataset_generation.py:654: FutureWarning: The 'delim_whitespace' keyword in pd.read_csv is deprecated and will be removed in a future version. Use ``sep='\s+'`` instead
+  df = pd.read_csv(path, delim_whitespace=True, skiprows=9)
+/vast/home/cheny/PreMevE_MEO/Space_code/src/util/dataset_generation.py:712: FutureWarning: The 'delim_whitespace' keyword in pd.read_csv is deprecated and will be removed in a future version. Use ``sep='\s+'`` instead
+  df = pd.read_csv(path, delim_whitespace=True, skiprows=11)
+/vast/home/cheny/.local/lib/python3.9/site-packages/torch/nn/modules/conv.py:456: UserWarning: Plan failed with a cudnnException: CUDNN_BACKEND_EXECUTION_PLAN_DESCRIPTOR: cudnnFinalize Descriptor Failed cudnn_status: CUDNN_STATUS_NOT_SUPPORTED (Triggered internally at ../aten/src/ATen/native/cudnn/Conv_v8.cpp:919.)
+  return F.conv2d(input, weight, bias, self.stride,
